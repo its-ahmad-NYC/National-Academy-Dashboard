@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.category-comp {
+    padding: 40px 25px;
+    width: 80vw;
+}
+
+.nav-category {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-category h1 {
+    font-size: 50px;
+}
+
+.nav-category h1 span {
+    font-size: 40px;
+}
+
+.nav-category .navbtn button {
+    /* padding: 20px 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-weight: 400;
+    color: #fff;
+    background: #0F98B4;
+
+}
+
+.nav-category button img {
+    width: 40px;
+}
+
+.city-boards {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 20%;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: black;
+    background: #F3F3F3;
+}
+
+.board h1 {
+    font-size: 20px;
+}
+
+.board .del {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B2C3E;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.board .del img {
+    width: 15px;
+}

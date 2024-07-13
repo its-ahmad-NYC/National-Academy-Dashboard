@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <g id="Group_48192" data-name="Group 48192" transform="translate(-1662 -32)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="200" height="60" rx="20" transform="translate(1662 32)" fill="#db5050"/>
+    <g id="Group_45140" data-name="Group 45140" transform="translate(1698.057 43)">
+      <text id="Logout" transform="translate(45.174 27)" fill="#fff" font-size="25" font-family="Segoe UI" letter-spacing="0.03em"><tspan x="0" y="0">Logout</tspan></text>
+      <g id="Icon_ionic-md-log-out" data-name="Icon ionic-md-log-out" transform="translate(0 3.845)">
+        <path id="Path_95017" data-name="Path 95017" d="M13.5,19.78H27.282l-3.168,3.248L26.287,25.2l6.975-6.975L26.287,11.25l-2.252,2.172,3.248,3.248H13.5Z" transform="translate(-3.038 -3.113)" fill="#fff"/>
+        <g id="Group_45139" data-name="Group 45139">
+          <path id="Path_95018" data-name="Path 95018" d="M18.465,30.5A12,12,0,1,1,26.929,9.985l2.2-2.2A16.058,16.058,0,0,0,27.116,6.1a15.124,15.124,0,1,0,2,23.1l-2.194-2.194a11.892,11.892,0,0,1-8.462,3.5Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+          <path id="Path_95019" data-name="Path 95019" d="M31.458,17.958h.087v.087h-.087Z" transform="translate(-2.44 -2.889)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

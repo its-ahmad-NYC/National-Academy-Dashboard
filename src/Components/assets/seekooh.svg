@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316.659" height="257.657" viewBox="0 0 316.659 257.657">
+  <defs>
+    <filter id="Path_98430" x="27.322" y="0" width="289.337" height="249.511" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_98431" x="48.766" y="45.986" width="228.068" height="211.671" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_98434" x="0" y="128.993" width="67.295" height="68.637" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(9 6)">
+    <g id="Group_48190" data-name="Group 48190" transform="translate(0)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_98430)">
+        <path id="Path_98430-2" data-name="Path 98430" d="M-964.884-231.775s-7,17.029-9.768,28.981-1.2,19.258-1.2,19.258,12.779-32.477,31.372-51.845,44.2-25.4,44.2-25.4-19.955,13.231-29.694,25.4-9.262,23.29-9.262,23.29,36.725-49.5,90.424-39.027,71.633,69.913,91.519,80.639,30.545,8.411,30.545,8.411-10.318,110.6-123.066,130.149-142.1-75.7-142.1-75.7-10.5-32.777-4.107-67.013S-964.884-231.775-964.884-231.775Z" transform="translate(1034.41 266.79)" fill="#0f99b5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_98431)">
+        <path id="Path_98431-2" data-name="Path 98431" d="M-987.89-153.7s23.045-32.954,60.163-57.131,78.1-28.092,78.1-28.092a219.742,219.742,0,0,1,23.479,22.011c11.667,12.746,14.784,21.938,22.653,28.257s19.655,6.927,19.655,6.927a145,145,0,0,1-15.124,1.419,71.076,71.076,0,0,1-12.234-.743s4.378,13.382,1.562,31.718-12.86,40.625-12.86,40.625l29.751,25.995s24.327,22.625,10.855,34.437-39.407-14.791-39.407-14.791l-28.028-27.242s-42.434,28.29-88.536,4.715S-987.89-153.7-987.89-153.7Z" transform="translate(1045.66 290.91)" fill="#1b2c3e"/>
+      </g>
+      <path id="Path_98432" data-name="Path 98432" d="M94.645,1.634s-.237-.092.722.226c27.861,9.12,49.754,36.723,49.754,68.913A72.56,72.56,0,0,1,0,70.772,88.522,88.522,0,0,1,1.228,59.8s22.59-22.723,42.09-35.625S94.645,1.634,94.645,1.634Z" transform="translate(65.361 49.711)" fill="#fcf9f8"/>
+      <path id="Path_98433" data-name="Path 98433" d="M86.338,4.766a5.847,5.847,0,0,1,2.379,0c23.976,8.747,36.169,28.987,36.169,59.862,0,38.438-27.957,69.6-62.443,69.6S0,103.067,0,64.629a28.571,28.571,0,0,1,1.317-7.676s19.035-19.51,40.607-33.31A155.154,155.154,0,0,1,86.338,4.766Z" transform="translate(71.671 46.599)" fill="#e2e1df"/>
+      <circle id="Ellipse_668" data-name="Ellipse 668" cx="28.393" cy="28.393" r="28.393" transform="translate(80.083 94.193)" fill="#18293d"/>
+      <circle id="Ellipse_669" data-name="Ellipse 669" cx="10.516" cy="10.516" r="10.516" transform="translate(103.219 87.883)" fill="#f8faf9"/>
+      <ellipse id="Ellipse_670" data-name="Ellipse 670" cx="28.393" cy="22.084" rx="28.393" ry="22.084" transform="translate(202.069 148.876)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_98434)">
+        <path id="Path_98434-2" data-name="Path 98434" d="M-976.668-199.454a198.586,198.586,0,0,1,8.907,23.915,250.778,250.778,0,0,1,5.979,26.722l-49.295-8.053Z" transform="translate(1020.08 334.45)" fill="#fccc62"/>
+      </g>
+      <circle id="Ellipse_667" data-name="Ellipse 667" cx="27.342" cy="27.342" r="27.342" transform="translate(107.425 87.883)" fill="#fff" opacity="0.24"/>
+    </g>
+  </g>
+</svg>
