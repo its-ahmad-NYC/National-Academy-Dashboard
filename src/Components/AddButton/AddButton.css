@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.show-add-btn{
+    display: block;
+}
+.add-btn-001{
+    display: block;
+}
+.add-btn-002{
+    display: none;
+}
+.no-add-btn{
+    display: none;
+}
+.add-btn1{
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.details-add{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.details-add img{
+    width: 50px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.add-btn-details{
+    width: 450px;
+    height: 300px;
+   padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    justify-content: center;
+}
+
+.add-btn-details h1{
+    font-size: 35px;
+}
+.add-btn-details h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.add-btn-details input{
+    border: none;
+    outline: none;
+    background: #F3F3F3;
+    width: 400px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.add-btn-details button{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    background: #0F98B4;
+    color: white;
+}
+.add-btn-details input::placeholder{
+    font-size: large;
+}
+
+/* -----------Responsive design-------------- */
+@media screen and (max-width: 490px) {
+    .details-add{
+        
+        width: 90%;
+        height: 300px;
+    }
+    .add-btn-details{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .add-btn-details h1{
+        font-size: 30px;
+    }
+    .add-btn-details h3{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .add-btn-details input{
+        width: 360px;
+        height: 30px;
+        
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .details-add{
+        
+        width: 90%;
+        height: 300px;
+    }
+    .add-btn-details{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .add-btn-details h1{
+        font-size: 26px;
+    }
+    .add-btn-details h3{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .add-btn-details input{
+        width: 320px;
+        height: 30px;
+        
+    }
+    
+}
+@media screen and (max-width: 365px) {
+    
+    .add-btn-details h1{
+        font-size: 23px;
+    }
+    .add-btn-details h3{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .add-btn-details input{
+        width: 290px;
+        height: 30px;
+        
+    }
+    .add-btn-details input::placeholder{
+        font-size: medium;
+    }
+    
+}
+@media screen and (max-width: 335px) {
+    
+    .add-btn-details h1{
+        font-size: 120%;
+    }
+    .add-btn-details h3{
+        font-size: 120%;
+        padding-bottom: 10px;
+    }
+    .add-btn-details input{
+        width: 100%;
+        height: 30px;
+        
+    }
+    
+}

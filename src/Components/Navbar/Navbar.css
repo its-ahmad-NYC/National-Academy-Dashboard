@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
+.logo .hamburger{
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
 
 a {
     cursor: pointer;
@@ -14,16 +19,23 @@ a {
 .nav {
     background-color: #D8F1FF;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     box-shadow: 5px 0px 20px rgb(107, 102, 102);
     z-index: 10;
-    /* height: 50px; */
+    height: 9vh;
 }
-
+.logo{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 .logo img {
     width: 250px;
-    padding: 10px 30px;
+    
 
 }
 
@@ -35,4 +47,47 @@ a {
 
 .maincomp {
     display: flex;
+}
+
+/* ---------------Responsive Navbar----------------  */
+
+@media  screen and (max-width:1200px) {
+ .logo .hamburger{
+    display: block;
+ }
+ .logo img {
+    width: 190px;
+    
+}
+    
+}
+@media  screen and (max-width:600px) {
+ .logo .hamburger{
+    display: block;
+    width: 22px;
+ }
+ .logo img {
+    width: 150px;
+    
+}
+.logout img {
+    width: 110px;
+    padding: 5px 10px;
+}
+    
+}
+@media  screen and (max-width:380px) {
+ .logo .hamburger{
+    display: block;
+    width: 20px;
+ }
+ .logo img {
+    width: 130px;
+    
+}
+.logout img {
+    width: 80px;
+    /* padding: 10px 30px; */
+}
+    
 }

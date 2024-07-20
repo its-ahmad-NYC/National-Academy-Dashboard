@@ -69,13 +69,14 @@ let boards = [
     },
 ]
 
-function Category(prop) {
+function Category({cate, setaddbutton2}) {
     return (
         <div className='category-comp'>
             <div className="nav-category">
-                <h1>Board (<span>{prop.text}</span>)</h1>
+                <h1>Board (<span id='nav-span'>{cate}</span>)</h1>
                 <div className="navbtn">
-                    <button><img src={btn} alt="" />Add Board</button>
+                    <button onClick={()=>setaddbutton2(true)} ><img src={btn}  alt="" />Add Board</button>
+                
                 </div>
             </div>
             <div className="city-boards">

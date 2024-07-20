@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="88" viewBox="0 0 92 88">
+  <g id="Group_48258" data-name="Group 48258" transform="translate(-1285 -307)">
+    <path id="Rectangle_83" data-name="Rectangle 83" d="M0,0H56A36,36,0,0,1,92,36V88a0,0,0,0,1,0,0H36A36,36,0,0,1,0,52V0A0,0,0,0,1,0,0Z" transform="translate(1285 307)" fill="rgba(230,230,230,0.47)"/>
+    <g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(1310.966 327.932)">
+      <path id="Path_98441" data-name="Path 98441" d="M24.816,23.006l-4.221-4.221,4.221-4.221a1.28,1.28,0,0,0-1.81-1.81l-4.221,4.221-4.221-4.221a1.28,1.28,0,0,0-1.81,1.81l4.221,4.221-4.221,4.221a1.238,1.238,0,0,0,0,1.81,1.271,1.271,0,0,0,1.81,0L18.785,20.6l4.221,4.221a1.286,1.286,0,0,0,1.81,0A1.271,1.271,0,0,0,24.816,23.006Z" transform="translate(1.25 1.249)"/>
+      <path id="Path_98442" data-name="Path 98442" d="M20.034,5.618a14.411,14.411,0,1,1-10.2,4.221,14.321,14.321,0,0,1,10.2-4.221m0-2.243A16.659,16.659,0,1,0,36.693,20.034,16.657,16.657,0,0,0,20.034,3.375Z"/>
+    </g>
+  </g>
+</svg>

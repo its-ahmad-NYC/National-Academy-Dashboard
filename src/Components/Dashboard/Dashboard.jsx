@@ -41,7 +41,7 @@ function Dashboard() {
             <div className="container">
                 <div className="heading">
                     <h1>Welcome Ahmad</h1>
-                    <p>Discover the Statistics of Seekooh App</p>
+                    <p>Discover the Statistics of National Academy App</p>
                 </div>
                 <div className="statistics">
                     <h1 className='stat-head'>Users</h1>

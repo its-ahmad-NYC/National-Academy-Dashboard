@@ -6,8 +6,8 @@
 
 .detail-main {
     padding: 30px;
-    width: 80vw;
-    height: 90vh;
+    /* width: 80vw; */
+    height: 91vh;
     overflow: auto;
 }
 
@@ -29,11 +29,12 @@
 
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .verify-data .id img {
-    width: 400px;
-
+    width: 500px;
+    
 
 }
 
@@ -49,15 +50,17 @@
     margin: 20px 0px;
 }
 
+
 .button button {
     font-size: 30px;
-    width: 15vw;
+    width: 20%;
     padding: 20px 30px;
     border: none;
     outline: none;
     margin: 0px 10px;
     border-radius: 20px;
     color: white;
+    text-align: center;
 }
 
 .button {
@@ -76,4 +79,130 @@
 
 #transcript {
     width: 100%;
+}
+
+/* ----------------Responsive Design----------- */
+@media screen and (max-width:1420px) {
+    .verify-data .id img {
+        width: 300px;
+    
+    
+    }
+    
+}
+
+@media screen and (max-width:1040px) {
+    .detail-main{
+        width: 100vw;
+    }
+    .verify-data .id img {
+        width: 300px;
+    }
+    .verify-data .id {
+        gap: 20px;
+    }
+    #p1 {
+        width: 100%;
+        text-align: left;
+    }
+    
+    #p2 {
+        width: 100%;
+        text-align: left;
+    }
+    .button button {
+        font-size: 20px;
+        width: 20%;
+        padding: 10px 15px;
+        
+    }
+    
+
+    
+}
+@media screen and (max-width:750px) {
+    .verify-data .id {
+        flex-direction: column;
+    }
+    .verify-data .id img {
+        width: 350px;
+    } 
+    .verify-data .id {
+        gap: 20px;
+    }
+    #p1 {
+        width: 100%;
+        text-align: left;
+    }
+    
+    #p2 {
+        width: 100%;
+        text-align: left;
+    }
+    .button button {
+        font-size: 20px;
+        width: 20%;
+        padding: 10px 15px;
+        
+    }
+    
+
+    
+}
+@media screen and (max-width:580px) {
+    .verify-data .id {
+        flex-direction: column;
+    }
+    #p1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #p2 {
+        font-size: 20px;
+    }
+    .detail-main h1 {
+        font-size: 35px;
+        
+    }
+    .button button {
+        font-size: 15px;
+        width: 20%;
+        padding: 7px 10px;
+        
+    }
+
+    
+}
+@media screen and (max-width:480px) {
+    .verify-data .id img {
+        width: 250px;
+    }
+   
+
+    
+}
+@media screen and (max-width:405px) {
+    .verify-data .id img {
+        width: 200px;
+    }
+    #p1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #p2 {
+        font-size: 18px;
+    }
+
+    
+}
+@media screen and (max-width:400px) {
+    
+    .button button {
+        font-size: 10px;
+        width: 20%;
+        padding: 7px 10px;
+        
+    }
+
+    
 }
